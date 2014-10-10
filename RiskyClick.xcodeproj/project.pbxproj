@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11AEF07A19E4BD0B0056A468 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AEF07919E4BD0B0056A468 /* AppDelegate.swift */; };
+		11AEF07C19E4BD0B0056A468 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AEF07B19E4BD0B0056A468 /* ViewController.swift */; };
+		11AEF08119E4BD0B0056A468 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11AEF08019E4BD0B0056A468 /* Images.xcassets */; };
+		11AEF09019E4BD0B0056A468 /* RiskyClickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AEF08F19E4BD0B0056A468 /* RiskyClickTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11AEF08A19E4BD0B0056A468 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11AEF06C19E4BD0B0056A468 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11AEF07319E4BD0B0056A468;
+			remoteInfo = RiskyClick;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11AEF07419E4BD0B0056A468 /* RiskyClick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RiskyClick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11AEF07819E4BD0B0056A468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11AEF07919E4BD0B0056A468 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11AEF07B19E4BD0B0056A468 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		11AEF08019E4BD0B0056A468 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		11AEF08919E4BD0B0056A468 /* RiskyClickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RiskyClickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11AEF08E19E4BD0B0056A468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11AEF08F19E4BD0B0056A468 /* RiskyClickTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiskyClickTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11AEF07119E4BD0B0056A468 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11AEF08619E4BD0B0056A468 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11AEF06B19E4BD0B0056A468 = {
+			isa = PBXGroup;
+			children = (
+				11AEF07619E4BD0B0056A468 /* RiskyClick */,
+				11AEF08C19E4BD0B0056A468 /* RiskyClickTests */,
+				11AEF07519E4BD0B0056A468 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11AEF07519E4BD0B0056A468 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11AEF07419E4BD0B0056A468 /* RiskyClick.app */,
+				11AEF08919E4BD0B0056A468 /* RiskyClickTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11AEF07619E4BD0B0056A468 /* RiskyClick */ = {
+			isa = PBXGroup;
+			children = (
+				11AEF07919E4BD0B0056A468 /* AppDelegate.swift */,
+				11AEF07B19E4BD0B0056A468 /* ViewController.swift */,
+				11AEF08019E4BD0B0056A468 /* Images.xcassets */,
+				11AEF07719E4BD0B0056A468 /* Supporting Files */,
+			);
+			path = RiskyClick;
+			sourceTree = "<group>";
+		};
+		11AEF07719E4BD0B0056A468 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11AEF07819E4BD0B0056A468 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11AEF08C19E4BD0B0056A468 /* RiskyClickTests */ = {
+			isa = PBXGroup;
+			children = (
+				11AEF08F19E4BD0B0056A468 /* RiskyClickTests.swift */,
+				11AEF08D19E4BD0B0056A468 /* Supporting Files */,
+			);
+			path = RiskyClickTests;
+			sourceTree = "<group>";
+		};
+		11AEF08D19E4BD0B0056A468 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11AEF08E19E4BD0B0056A468 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11AEF07319E4BD0B0056A468 /* RiskyClick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11AEF09319E4BD0B0056A468 /* Build configuration list for PBXNativeTarget "RiskyClick" */;
+			buildPhases = (
+				11AEF07019E4BD0B0056A468 /* Sources */,
+				11AEF07119E4BD0B0056A468 /* Frameworks */,
+				11AEF07219E4BD0B0056A468 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RiskyClick;
+			productName = RiskyClick;
+			productReference = 11AEF07419E4BD0B0056A468 /* RiskyClick.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11AEF08819E4BD0B0056A468 /* RiskyClickTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11AEF09619E4BD0B0056A468 /* Build configuration list for PBXNativeTarget "RiskyClickTests" */;
+			buildPhases = (
+				11AEF08519E4BD0B0056A468 /* Sources */,
+				11AEF08619E4BD0B0056A468 /* Frameworks */,
+				11AEF08719E4BD0B0056A468 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11AEF08B19E4BD0B0056A468 /* PBXTargetDependency */,
+			);
+			name = RiskyClickTests;
+			productName = RiskyClickTests;
+			productReference = 11AEF08919E4BD0B0056A468 /* RiskyClickTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11AEF06C19E4BD0B0056A468 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = twodayslate;
+				TargetAttributes = {
+					11AEF07319E4BD0B0056A468 = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = C6L3992RFB;
+					};
+					11AEF08819E4BD0B0056A468 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 11AEF07319E4BD0B0056A468;
+					};
+				};
+			};
+			buildConfigurationList = 11AEF06F19E4BD0B0056A468 /* Build configuration list for PBXProject "RiskyClick" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11AEF06B19E4BD0B0056A468;
+			productRefGroup = 11AEF07519E4BD0B0056A468 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11AEF07319E4BD0B0056A468 /* RiskyClick */,
+				11AEF08819E4BD0B0056A468 /* RiskyClickTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11AEF07219E4BD0B0056A468 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11AEF08119E4BD0B0056A468 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11AEF08719E4BD0B0056A468 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11AEF07019E4BD0B0056A468 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11AEF07C19E4BD0B0056A468 /* ViewController.swift in Sources */,
+				11AEF07A19E4BD0B0056A468 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11AEF08519E4BD0B0056A468 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11AEF09019E4BD0B0056A468 /* RiskyClickTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11AEF08B19E4BD0B0056A468 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11AEF07319E4BD0B0056A468 /* RiskyClick */;
+			targetProxy = 11AEF08A19E4BD0B0056A468 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11AEF09119E4BD0B0056A468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11AEF09219E4BD0B0056A468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11AEF09419E4BD0B0056A468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = RiskyClick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		11AEF09519E4BD0B0056A468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = RiskyClick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		11AEF09719E4BD0B0056A468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RiskyClickTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RiskyClick.app/RiskyClick";
+			};
+			name = Debug;
+		};
+		11AEF09819E4BD0B0056A468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RiskyClickTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RiskyClick.app/RiskyClick";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11AEF06F19E4BD0B0056A468 /* Build configuration list for PBXProject "RiskyClick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11AEF09119E4BD0B0056A468 /* Debug */,
+				11AEF09219E4BD0B0056A468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11AEF09319E4BD0B0056A468 /* Build configuration list for PBXNativeTarget "RiskyClick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11AEF09419E4BD0B0056A468 /* Debug */,
+				11AEF09519E4BD0B0056A468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11AEF09619E4BD0B0056A468 /* Build configuration list for PBXNativeTarget "RiskyClickTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11AEF09719E4BD0B0056A468 /* Debug */,
+				11AEF09819E4BD0B0056A468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11AEF06C19E4BD0B0056A468 /* Project object */;
+}
