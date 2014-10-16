@@ -1,4 +1,4 @@
-riskyclick
+Risky Click!
 ==========
 
 The web is a huge place - explore it with the help of random people!
